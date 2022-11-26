@@ -1,3 +1,3 @@
 interface ILogger {
-    fun log()
+    fun log(messege: String)
 }

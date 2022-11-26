@@ -1,5 +1,5 @@
 class SendEmail: ISender{
-    override fun send() {
-        println("Send Email")
+    override fun send(messege: String, user: User) {
+        TODO("Not yet implemented")
     }
 }

@@ -1,6 +1,6 @@
-class User (var userName: String, var userRole: String) {
-
-    fun sendAdminNotification(message: ISender){
-        println(message.send())
+class User(_name: String){
+    private val name: String
+    init{
+        name = _name
     }
 }

@@ -1,3 +1,3 @@
 interface ISender {
-    fun send()
+    fun send(messege: String, user: User)
 }

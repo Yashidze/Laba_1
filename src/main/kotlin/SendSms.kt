@@ -1,5 +1,5 @@
 class SendSms: ISender {
-    override fun send() {
-        println("Send Sms")
+    override fun send(messege: String, user: User) {
+        TODO("Not yet implemented")
     }
 }

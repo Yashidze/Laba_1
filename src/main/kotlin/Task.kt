@@ -1,10 +1,14 @@
-class Task (val taskName: String, val taskDescription: String) {
+class Task(_name: String, _user: User, val _logger: ILogger) {
 
-    fun createTask(){
-
+    private val Name: String
+    private lateinit var Status: String
+    private val User: User
+    init {
+        Name = _name
+        User = _user
     }
-
-    fun editTask(){
-
+    fun StatusChange(_status: String, _user: User){
+        Status = _status
+        _logger.log("")
     }
 }
